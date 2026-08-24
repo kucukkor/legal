@@ -1,6 +1,6 @@
 # Privacy Policy — Argosa: Sea Trade Empire
 
-**Last Updated:** July 28, 2026
+**Last Updated:** August 25, 2026
 
 This policy explains what data **Argosa: Sea Trade Empire** ("Argosa", "the game") handles, why, and what never leaves your device. It is written specifically for this game — it describes exactly what this game does, and nothing it doesn't.
 
@@ -11,7 +11,7 @@ Argosa is published by the game's independent developer ("we"). You can reach us
 - Argosa has **no accounts, no sign-up, and no server of its own.** Your voyage lives on your device.
 - We never see your name, e-mail, contacts, photos, files, or precise location. The game does not ask for them.
 - Three third-party services make specific features work: **RevenueCat** (purchases), **Google AdMob** (ads), and **Apple Game Center / Google Play Games Services** (leaderboards and achievements). Each is detailed below, with links to its own policy.
-- Buying **No More Dispatches** (or the Starter Merchant's Pack, which includes it) turns interstitial ads off entirely.
+- Buying **No More Ads** (or the Starter Merchant's Pack, which includes it) turns interstitial ads off entirely.
 
 ## 2. Data that stays on your device
 
@@ -21,7 +21,7 @@ Your save — gold, debt, ship and fittings, cargo, captain experience and skill
 
 ### 3.1 RevenueCat — in-app purchases
 
-When you buy something (a gold pack, No More Dispatches, or the Starter Merchant's Pack), the App Store or Google Play processes the payment — **we never see your payment details**. RevenueCat then validates the store receipt so the game can deliver what you bought and restore it later.
+When you buy something (a gold pack, No More Ads, or the Starter Merchant's Pack), the App Store or Google Play processes the payment — **we never see your payment details**. RevenueCat then validates the store receipt so the game can deliver what you bought and restore it later.
 
 Argosa runs RevenueCat in **anonymous mode**: we do not send it your name, e-mail, or device advertising ID. Purchases are keyed to the store receipt Apple or Google issues for your account. One game-specific detail worth knowing: Argosa reads your **purchase history** from RevenueCat to rebuild your lifetime purchased-gold balance — this is how bought gold returns to every new voyage, and how that balance survives if you delete and reinstall the game.
 
@@ -29,13 +29,13 @@ Argosa runs RevenueCat in **anonymous mode**: we do not send it your name, e-mai
 
 ### 3.2 Google AdMob — advertising
 
-Argosa shows an occasional interstitial ad when you make port, and optional rewarded ads you choose to watch (double sale, free repair, the harbormaster's price tip, pressing crew). To serve and measure ads, AdMob processes your device's **advertising identifier** (IDFA on iOS, AAID/GAID on Android) and coarse technical signals (device model, OS version, approximate region).
+Argosa shows an occasional interstitial ad when you make port, and optional rewarded ads you choose to watch (a sales bonus, a free repair, the harbormaster's price tip, and rallying extra crew). To serve and measure ads, AdMob processes your device's **advertising identifier** (IDFA on iOS, AAID/GAID on Android) and coarse technical signals (device model, OS version, approximate region).
 
 Your choices control this:
 
 - **In regions with consent laws (e.g. EEA/UK),** a consent form is shown at first launch before any ad loads. You can decline personalized ads.
 - **On iOS,** Argosa asks for App Tracking Transparency permission. If you decline, ads still show but are **non-personalized**.
-- **Purchasing No More Dispatches** (alone or inside the Starter Merchant's Pack) removes interstitial ads permanently. Rewarded ads remain available because they only ever play when you ask for them.
+- **Purchasing No More Ads** (alone or inside the Starter Merchant's Pack) removes interstitial ads permanently. Rewarded ads remain available because they only ever play when you ask for them.
 
 - Google ads privacy: <https://policies.google.com/technologies/ads>
 

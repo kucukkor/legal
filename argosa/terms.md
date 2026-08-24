@@ -1,6 +1,6 @@
 # Terms of Use — Argosa: Sea Trade Empire
 
-**Last Updated:** July 28, 2026
+**Last Updated:** August 25, 2026
 
 These Terms govern your use of **Argosa: Sea Trade Empire** ("Argosa", "the game"). By installing or playing Argosa you accept them; if you do not, please do not use the game. Argosa is published by the game's independent developer ("we"). Contact: <info@esimostudios.com>.
 
@@ -24,7 +24,7 @@ All payments are processed by the App Store or Google Play; refunds follow **the
 
 | Item | Type | What it does |
 |---|---|---|
-| **No More Dispatches** | one-time unlock | Permanently removes interstitial ads. Restorable with the Restore Purchases button (Shop and Settings). Rewarded ads remain — they only play when you choose to watch them. |
+| **No More Ads** | one-time unlock | Permanently removes interstitial ads. Restorable with the Restore Purchases button (Shop and Settings). Rewarded ads remain — they only play when you choose to watch them. |
 | **The Pouch / The Chest / The Hoard / The Galleon** | gold packs | Gold is added to your purse immediately, **and** recorded to your lifetime purchased-gold balance (see §4). |
 | **Starter Merchant's Pack** | one-time bundle | Removes interstitial ads, grants an 18,000-gold chest once, and sets you out **in a Brig instead of a Cutter on every voyage**. The unlock is restorable. |
 
