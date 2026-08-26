@@ -1,6 +1,6 @@
 # Privacy Policy — Argosa: Sea Trade Empire
 
-**Last Updated:** August 25, 2026
+**Last Updated:** August 26, 2026
 
 This policy explains what data **Argosa: Sea Trade Empire** ("Argosa", "the game") handles, why, and what never leaves your device. It is written specifically for this game — it describes exactly what this game does, and nothing it doesn't.
 
@@ -37,6 +37,8 @@ Your choices control this:
 - **On iOS,** Argosa asks for App Tracking Transparency permission. If you decline, ads still show but are **non-personalized**.
 - **Purchasing No More Ads** (alone or inside the Starter Merchant's Pack) removes interstitial ads permanently. Rewarded ads remain available because they only ever play when you ask for them.
 
+To run and troubleshoot those ads, the AdMob SDK also collects technical diagnostic information and crash logs that are not tied to your identity, plus your IP address for coarse location. Argosa itself adds no analytics of its own: we do not run Firebase Analytics, Crashlytics, Sentry or any comparable service, and we receive no gameplay analytics about you.
+
 - Google ads privacy: <https://policies.google.com/technologies/ads>
 
 ### 3.3 Apple Game Center / Google Play Games Services — leaderboards & achievements
@@ -50,7 +52,7 @@ Sign-in is handled entirely by Apple or Google; Argosa does not collect or store
 
 ## 4. What Argosa does NOT use
 
-No analytics SDKs (no Firebase Analytics, no Crashlytics, no Sentry). No social logins. No cloud save. No push notifications. No contact, camera, microphone, or location access. If a future update adds a service that handles data, this policy will be updated **before** that update ships, with the "Last Updated" date changed at the top.
+No analytics SDKs of our own (no Firebase Analytics, no Crashlytics, no Sentry); the only diagnostic data that leaves the device is the AdMob SDK's own crash and performance information described in §3.2. No social logins. No cloud save. No push notifications. No contact, camera, microphone, or location access. If a future update adds a service that handles data, this policy will be updated **before** that update ships, with the "Last Updated" date changed at the top.
 
 ## 5. Children
 
