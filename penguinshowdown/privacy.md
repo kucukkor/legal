@@ -1,6 +1,6 @@
 # Penguin Showdown Privacy Policy
 
-**Last Updated:** November 1, 2026
+**Last Updated:** November 3, 2026
 
 Penguin Showdown is published by the game's independent developer ("we"). This policy explains what data the game handles and why. Contact: <info@esimostudios.com>.
 
@@ -8,7 +8,7 @@ Penguin Showdown is published by the game's independent developer ("we"). This p
 
 - The game has no accounts and no server of its own. Your progress is saved on your device.
 - We do not collect your name, e-mail address, contacts or precise location.
-- The game uses two third-party services: **RevenueCat** for purchases and **Google AdMob** for ads.
+- The game uses three third-party services: **RevenueCat** for purchases, **Google AdMob** for ads, and **Apple Game Center / Google Play Games** for achievements and the leaderboard.
 
 ## Your progress
 
@@ -28,9 +28,16 @@ The game shows full-screen ads between levels and optional rewarded ads that pla
 
 The game uses no analytics service of its own.
 
+## Achievements and leaderboard: Apple Game Center and Google Play Games
+
+If you are signed in to Game Center (iOS) or Play Games (Android), the game reports the achievements you earn and sends one number to the **Total Stars** leaderboard: the total stars you have collected. Sign-in is handled by Apple or Google; the game does not collect or store your Game Center or Play Games profile. If you are not signed in, nothing is sent.
+
+- Apple privacy: <https://www.apple.com/legal/privacy/>
+- Google privacy: <https://policies.google.com/privacy>
+
 ## Protection and retention
 
-Data is sent encrypted. RevenueCat and Google protect the data they receive at least as well as this policy describes, under their own policies. Purchase records are kept by Apple or Google and by RevenueCat for as long as your purchases and the law require; advertising data is kept by Google under its policy.
+Data is sent encrypted. RevenueCat and Google protect the data they receive at least as well as this policy describes, under their own policies. Purchase records are kept by Apple or Google and by RevenueCat for as long as your purchases and the law require; advertising data is kept by Google under its policy. Achievement and leaderboard records are kept by Apple or Google under your Game Center or Google account.
 
 ## Children
 
@@ -40,6 +47,7 @@ The game is intended for players aged 18 and over. We do not knowingly collect p
 
 - **Ads:** limit ad tracking or reset your advertising identifier in your device settings.
 - **Purchase records:** e-mail us the order number from your store receipt and we will ask RevenueCat to delete them.
+- **Achievements and leaderboard:** managed in your Game Center (Apple ID) or Google Play Games settings.
 - **Your progress:** delete the game.
 
 ## Changes and contact
