@@ -1,131 +1,74 @@
 # Privacy Policy for SVARM
 
-**Last Updated:** August 18, 2026
+**Last Updated:** November 18, 2026
 
-SVARM is published by the game's independent developer ("we"). We value your
-privacy. This policy explains how we
-handle your data in "SVARM: Co-op Survival" ("SVARM"). SVARM is an **online
-co-op game with its own game server**: unlike our earlier titles, some game data
-is stored on our backend so your progress can follow your account across
-devices. This document describes exactly what that server stores, which
-third-party services are involved, and how you can delete your data.
+This policy explains what data **SVARM: Co-op Survival** ("SVARM", "the game") handles and why. SVARM is published by the game's independent developer ("we"). You can reach us at <info@esimostudios.com>.
 
-## 1. Data Stored on Our Game Server
+## 1. The short version
 
-When you first launch SVARM, a **guest account** is created automatically. A
-guest account is anonymous — it is created without any personal information. We
-store the minimum needed to run the game:
+- SVARM is an online co-op game: matches and your progress run on our own game server.
+- Your account is your Game Center (iOS) or Google Play Games (Android) profile. You can also play as a guest.
+- The game does not ask for or collect your name, e-mail address, contacts, photos, files or precise location.
+- Three third-party services are used: **RevenueCat** for purchases, **Google AdMob** for ads, and **Apple Game Center / Google Play Games** for your account, achievements and the leaderboard.
+- **Remove Ads** turns full-screen ads off.
 
-- **Account record**: an internal numeric account ID, a public player code
-  (friend code), and an auto-generated nickname. **We do not store your name,
-  email address, phone number, precise location, or contacts.**
-- **Optional sign-in link**: if you choose to link Sign in with Apple or Google
-  Sign-In to protect your progress, we store only the provider's **subject
-  identifier** (an opaque ID). We do not receive or store your name or email
-  from the provider.
-- **Game progression**: in-game gold balance, weapon unlocks, permanent upgrade
-  levels, and match results (waves reached, kills).
-- **Purchase records**: which in-app products your account has bought (product
-  ID, store, transaction reference), so the server can grant the corresponding
-  gold or unlock and restore it later. We never see your payment method.
+## 2. Data on our game server
 
-All traffic between the app and our server uses **encrypted connections**
-(HTTPS / secure WebSocket). We do not sell your data, and we do not use the
-data on our server for advertising profiling.
+- **Account:** an account ID, a player code and your callsign. Your callsign is shown to the other players in your squad. Callsigns you type go through a word filter.
+- **Platform profile:** if you play with Game Center or Play Games, the anonymous player identifier Apple or Google gives us. We never receive your Apple ID, your Google account e-mail or any password. Accounts created in an earlier version may also hold the identifier of the Sign in with Apple or Google sign-in used then.
+- **Progress:** your gold balance and gold history, unlocked weapons and upgrade levels.
+- **Purchases:** which products your account bought and the store's transaction reference, so the server can deliver and restore them.
 
-## 2. Third-Party Services Used by SVARM
+When the game starts it also asks our server whether a newer version is available. All traffic to our server is encrypted.
 
-### 2.1 Sign in with Apple / Google Sign-In (optional)
+## 3. Data on your device
 
-Only used if you choose to link your account for cross-device recovery.
-Authentication happens on your device with Apple / Google; SVARM receives a
-verified token and stores only the opaque subject identifier described in §1.
+Your settings, language and sign-in session are stored on your device. Deleting the game deletes them from your device.
 
-- Apple's privacy policy: <https://www.apple.com/legal/privacy/>
-- Google's privacy policy: <https://policies.google.com/privacy>
+## 4. RevenueCat: purchases
 
-### 2.2 RevenueCat (in-app purchase processing)
+Payments are processed by the App Store or Google Play; we never see your payment details. RevenueCat checks the store receipt and tells our server what you bought, so your gold and Remove Ads can be delivered and restored. Purchases are linked to your SVARM account ID. We do not send RevenueCat your name, e-mail address or advertising identifier.
 
-Used to validate, deliver, and restore in-app purchases (Remove Ads
-non-consumable + gold pack consumables). Purchases are associated with your
-SVARM account ID so that gold and unlocks can be granted by our server and
-restored on a new device. RevenueCat processes the App Store / Google Play
-receipt that Apple or Google generates on your behalf.
+- RevenueCat privacy: <https://www.revenuecat.com/privacy/>
 
-- RevenueCat's privacy policy: <https://www.revenuecat.com/privacy/>
+## 5. Google AdMob: ads
 
-### 2.3 Google AdMob (interstitial + rewarded ads)
+The game shows occasional full-screen ads and optional rewarded ads that play only when you choose to watch one. To show and measure ads, AdMob processes your device's advertising identifier and other device identifiers, technical information about your device, your approximate location (estimated from your IP address), how you interact with ads and the app, and diagnostic and crash information. Google uses this data for advertising, analytics and fraud prevention.
 
-SVARM shows interstitial ads between runs and an **optional** rewarded ad for
-the in-run revive. AdMob uses your **Advertising ID** (IDFA / GAID) to serve
-and measure ads. On iOS, SVARM respects the App Tracking Transparency
-framework — if you decline tracking, AdMob serves non-personalized ads. You can
-remove interstitial ads entirely with the "Remove Ads" purchase; the rewarded
-revive ad remains strictly optional.
+- **On iOS,** the game asks for App Tracking Transparency permission. If you decline, ads are not personalized.
+- **Remove Ads** turns full-screen ads off. Rewarded ads stay available, because they only play when you ask.
 
-- Google AdMob privacy: <https://policies.google.com/technologies/ads>
+We add no analytics of our own: no Firebase Analytics, Crashlytics, Sentry or similar service.
 
-### 2.4 Apple Game Center / Google Play Games Services (leaderboards)
+- Google ads privacy: <https://policies.google.com/technologies/ads>
 
-Used for leaderboards only, if you choose to sign in. Sign-in is handled by
-your device's operating system (Apple ID / Google Account) — SVARM does not
-store your platform handle or credentials; Apple and Google manage that data on
-your behalf.
+## 6. Apple Game Center and Google Play Games
 
-- Apple's privacy policy: <https://www.apple.com/legal/privacy/>
-- Google's privacy policy: <https://policies.google.com/privacy>
+Your Game Center or Play Games profile is your SVARM account (see §2). The game also reports the achievements you earn and sends your highest wave to the leaderboard. Your profile itself is managed by Apple or Google. As a guest, nothing is sent to Game Center or Play Games.
 
-### 2.5 App Stores (Apple App Store / Google Play)
+- Apple privacy: <https://www.apple.com/legal/privacy/>
+- Google privacy: <https://policies.google.com/privacy>
 
-All payments are processed by the App Store or Google Play. We never see or
-store your payment details.
+## 7. Protection and retention
 
-## 3. Services We Do NOT Use
+Data is sent encrypted. RevenueCat, Google and Apple protect your data at least as well as this policy describes, under their own policies. Your account data stays on our server while your account exists. When you delete your account, everything we hold about it is deleted from our server at once, including its purchase records, and we delete RevenueCat's record of it too. The App Store and Google Play keep their own records of your payments. Advertising data is kept by Google under its policy.
 
-To be explicit, SVARM v1.0 does **NOT** integrate:
+## 8. What the game does not use
 
-- Google Analytics for Firebase, Firebase Crashlytics, Sentry, or any other
-  third-party analytics / crash-reporting SDK beyond what AdMob includes
-- Facebook / Meta SDKs of any kind
-- iCloud or Google Drive save sync (progress lives on our own game server
-  instead, tied to your account)
+No analytics of our own, no chat, no cloud save other than our game server, no push notifications, and no access to your contacts, camera, microphone, photos or location. If a future update adds a service that handles data, this policy will be updated before that update ships.
 
-If a future version adds any such service, this policy will be updated before
-that version ships.
+## 9. Children
 
-## 4. Data on Your Device
+SVARM is intended for players aged 18 and over and is not directed at children. We do not knowingly collect personal data from children. If a child made a purchase without permission, ask the App Store or Google Play for a refund, and write to us.
 
-Settings (audio, language, theme, control preferences) and session tokens are
-stored locally on your device. Deleting the app removes them.
+## 10. Deleting your data
 
-## 5. Children's Privacy
+- **Your account:** in the game, Settings → Account → Delete account. Everything we hold about your account is deleted at once and cannot be restored; its gold is lost.
+- **Ad data:** reset or limit your advertising identifier in your phone's settings (iOS: Privacy & Security → Tracking; Android: Google → Ads).
+- **Achievements and leaderboard:** managed in your Game Center or Google Play Games settings.
 
-SVARM is intended for adults (18+) due to its combat theme and is not directed
-at children. We do not knowingly collect personal data from children under 13.
-If you believe a child has used SVARM, contact us at the email below.
+## 11. Contact
 
-## 6. Data Retention & Deletion
+<info@esimostudios.com>. We answer within a few business days.
 
-You can permanently delete your account **at any time, inside the app**:
-**Settings → Account → Delete account.** This is immediate and irreversible:
-your account record, sign-in links, progression, and in-game gold are erased
-from our server. Purchase records that we are legally required to keep for
-accounting purposes may be retained in a form no longer linked to a usable
-account.
-
-Other data holders:
-
-- **RevenueCat** purchase records — deleted via RevenueCat's data subject
-  request process; contact us (§7) and we will initiate it for you.
-- **AdMob** ad data — managed via Google's Ads Settings (Android) or the
-  Tracking settings on your device (iOS).
-- **Game Center / Play Games Services** leaderboard entries — managed via your
-  Apple ID / Google Account settings.
-- **Local device data** — removed by deleting the app.
-
-## 7. Contact Us
-
-If you have any questions about this policy or your data, contact us at:
-<info@esimostudios.com>
-
-You can also reach us from inside the game: **Settings → Credits → Contact us**.
+© 2026 Ismail Küçükkör
