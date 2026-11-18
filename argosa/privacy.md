@@ -1,6 +1,6 @@
 # Privacy Policy — Argosa: Sea Trade Empire
 
-**Last Updated:** August 26, 2026
+**Last Updated:** November 19, 2026
 
 This policy explains what data **Argosa: Sea Trade Empire** ("Argosa", "the game") handles, why, and what never leaves your device. It is written specifically for this game — it describes exactly what this game does, and nothing it doesn't.
 
@@ -29,12 +29,12 @@ Argosa runs RevenueCat in **anonymous mode**: we do not send it your name, e-mai
 
 ### 3.2 Google AdMob — advertising
 
-Argosa shows an occasional interstitial ad when you make port, and optional rewarded ads you choose to watch (a sales bonus, a free repair, the harbormaster's price tip, and rallying extra crew). To serve and measure ads, AdMob processes your device's **advertising identifier** (IDFA on iOS, AAID/GAID on Android) and coarse technical signals (device model, OS version, approximate region).
+Argosa shows an occasional interstitial ad when you make port, and optional rewarded ads you choose to watch (a sales bonus, a free repair, the harbormaster's price tip, and rallying extra crew). To serve and measure ads, AdMob processes your device's **advertising identifier** (IDFA on iOS, AAID/GAID on Android), coarse technical signals (device model, OS version, approximate region), and how you interact with the ads (for example, which ads were shown and tapped).
 
 Your choices control this:
 
 - **In regions with consent laws (e.g. EEA/UK),** a consent form is shown at first launch before any ad loads. You can decline personalized ads.
-- **On iOS,** Argosa asks for App Tracking Transparency permission. If you decline, ads still show but are **non-personalized**.
+- **On iOS,** Argosa asks for App Tracking Transparency permission after the consent form, and does not ask at all if you declined there. If you decline, ads still show but are **non-personalized**.
 - **Purchasing No More Ads** (alone or inside the Starter Merchant's Pack) removes interstitial ads permanently. Rewarded ads remain available because they only ever play when you ask for them.
 
 To run and troubleshoot those ads, the AdMob SDK also collects technical diagnostic information and crash logs that are not tied to your identity, plus your IP address for coarse location. Argosa itself adds no analytics of its own: we do not run Firebase Analytics, Crashlytics, Sentry or any comparable service, and we receive no gameplay analytics about you.
@@ -65,6 +65,15 @@ Argosa is a trading and naval-combat game with stylized violence and simulated i
 - **Leaderboard & achievement entries:** managed through your Apple ID or Google Account settings.
 - **Ad data:** reset or limit your advertising ID in iOS Settings → Privacy → Tracking, or Android Settings → Google → Ads.
 
-## 7. Contact
+## 7. Protection and retention
+
+Data that leaves your device is sent encrypted (HTTPS). The third-party services above (RevenueCat, Google, Apple) protect your data at least as well as this policy describes, under their own policies.
+
+- **Your save** stays on your device until you delete the game.
+- **Purchase records** are kept by Apple or Google and by RevenueCat for as long as your purchases need them (so they can be restored) and as long as the law requires.
+- **Advertising data** is kept by Google under its own policy.
+- **Leaderboard and achievement records** are kept by Apple or Google under your Game Center or Google account.
+
+## 8. Contact
 
 Questions, requests, or concerns: <info@esimostudios.com>. We answer within a few business days.
