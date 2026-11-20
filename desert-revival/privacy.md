@@ -1,6 +1,6 @@
 # Privacy Policy for Desert Revival
 
-**Last Updated:** October 31, 2026
+**Last Updated:** November 20, 2026
 
 This policy explains what data **Desert Revival** ("the game") handles and why. Desert Revival is published by the game's independent developer ("we"). You can reach us at <info@esimostudios.com>.
 
@@ -25,6 +25,7 @@ Payments are processed by the App Store or Google Play; we never see your paymen
 
 The game shows an occasional full-screen ad between moments of play, never during the tutorial, and optional rewarded ads that play only when you choose to watch one. To show and measure ads, AdMob processes your device's advertising identifier and other device identifiers, technical information about your device, your approximate location (estimated from your IP address), how you interact with ads, and diagnostic and crash information. Google uses this data for advertising, analytics and fraud prevention.
 
+- **In the EEA and the UK,** a Google consent form appears before any ad. You can change or withdraw your choice at any time in Settings > Privacy options.
 - **On iOS,** the game asks for App Tracking Transparency permission. If you decline, ads are not personalized.
 - **No Ads** and an active **Caravan Pass** turn interstitial ads off. Rewarded ads stay available, because they only play when you ask.
 
