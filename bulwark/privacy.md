@@ -1,67 +1,71 @@
 # Privacy Policy for BULWARK
 
-**Last Updated:** August 18, 2026
+**Last Updated:** November 21, 2026
 
-BULWARK is published by the game's independent developer ("we"). We value your privacy. This policy explains how we handle your data in "BULWARK — Defend Your Tower".
+This policy explains what data **BULWARK: Defend Your Tower** ("BULWARK", "the game") handles, why, and what never leaves your device. It describes exactly what this game does, and nothing it doesn't.
 
-## 1. Data We Do NOT Collect Directly
+BULWARK is published by the game's independent developer ("we"). You can reach us any time at <info@esimostudios.com>.
 
-BULWARK does not have its own backend. We do not collect, store, or transmit personal information such as your name, email address, phone number, or precise location to our own servers. BULWARK does not request App Tracking Transparency permission for our own purposes — see §2.3 for the AdMob context.
+## 1. The short version
 
-## 2. Third-Party Services Used by BULWARK
+- BULWARK has **no accounts, no sign-up and no server of its own.** Your progress lives on your device.
+- We never see your name, e-mail, contacts, photos, files or precise location. The game does not ask for them.
+- Three third-party services make specific features work: **RevenueCat** (purchases), **Google AdMob** (ads) and **Apple Game Center / Google Play Games Services** (leaderboard and achievements). Each is described below, with a link to its own policy.
+- Buying **Remove Ads** turns off all ads, interstitial and rewarded, and makes the revive free.
 
-BULWARK uses the following third-party services to deliver core features. Each is described with what it does and what data it processes.
+## 2. Data that stays on your device
 
-### 2.1 Apple Game Center / Google Play Games Services
+Your progress (levels cleared, upgrades owned, gold, purchased gold, settings and language choice) is stored **locally** in the game's private app storage. BULWARK does not upload it anywhere. Deleting the game deletes this data.
 
-Used for leaderboards and achievements only. Sign-in is handled by your device's operating system (Apple ID / Google Account) — BULWARK does not store your platform handle or Game Center / Play Games Services credentials.
+## 3. Third-party services
 
-- Apple's privacy policy: <https://www.apple.com/legal/privacy/>
-- Google's privacy policy: <https://policies.google.com/privacy>
+### 3.1 RevenueCat: in-app purchases
 
-### 2.2 RevenueCat (in-app purchase processing)
+When you buy something (a gold pack or Remove Ads), the App Store or Google Play processes the payment. **We never see your payment details.** RevenueCat checks the store receipt so the game can deliver what you bought and restore it later.
 
-Used to deliver and restore in-app purchases (Remove Ads non-consumable + gold pack consumables). RevenueCat operates in **anonymous mode** for BULWARK — we do not send your Device ID (IDFA / IDFV / Advertising ID) to it. RevenueCat associates your purchases with the App Store / Google Play receipt that Apple or Google generates on your behalf.
+BULWARK uses RevenueCat in **anonymous mode**: we do not send it your name, e-mail or advertising identifier. Purchases are linked to the receipt Apple or Google issues for your account.
 
-- RevenueCat's privacy policy: <https://www.revenuecat.com/privacy/>
+- RevenueCat privacy: <https://www.revenuecat.com/privacy/>
 
-### 2.3 Google AdMob (interstitial + rewarded ads)
+### 3.2 Google AdMob: advertising
 
-BULWARK shows interstitial ads between levels and rewarded ads for the optional "revive" feature. AdMob uses your **Advertising ID** (IDFA / GAID) to serve relevant ads and measure ad performance. On iOS, BULWARK respects the App Tracking Transparency framework — if you decline tracking, AdMob serves non-personalized ads. You can disable Remove Ads via the in-app purchase to opt out entirely.
+BULWARK shows an interstitial ad between some levels and an optional rewarded ad you can choose to watch to revive. To serve and measure ads, AdMob processes your device's **advertising identifier** (IDFA on iOS, advertising ID on Android), technical information about your device, your IP address for approximate location, and how you interact with ads (for example, which ads were shown and tapped). To run and troubleshoot ads, the AdMob SDK also collects diagnostic information.
 
-- Google AdMob privacy: <https://policies.google.com/technologies/ads>
+Your choices control this:
 
-### 2.4 App Stores (Apple App Store / Google Play Store)
+- **In the EEA, the UK and Switzerland,** a consent form from Google is shown before ads load. You can manage or refuse consent for personalized ads there.
+- **On iOS,** the game can ask for App Tracking Transparency permission. If you decline, or are not asked, ads are still shown but are **not personalized**.
+- **Buying Remove Ads** turns off all ads permanently.
 
-When you purchase an item through BULWARK, the App Store or Google Play processes the transaction. We never see your payment method.
+- Google ads privacy: <https://policies.google.com/technologies/ads>
 
-## 3. Services We Do NOT Use
+### 3.3 Apple Game Center / Google Play Games Services: leaderboard and achievements
 
-To be explicit, BULWARK v1.0 does **NOT** integrate:
+If you are signed in to Game Center (iOS) or Play Games (Android), BULWARK sends your best score to the **High Score** leaderboard and reports the achievements you unlock. Sign-in is handled entirely by Apple or Google; BULWARK does not collect or store your platform profile. If you are not signed in, nothing is sent.
 
-- Facebook Login, Sign in with Apple, Google Sign-In (other than the platform Game Center sign-in described above)
-- Google Analytics for Firebase, Firebase Crashlytics, Sentry, or any other crash-reporting / analytics SDK beyond what AdMob includes
-- iCloud or Google Drive cloud-save sync for game progress (purchased gold credit is preserved locally via iOS automatic device backup)
+- Apple privacy: <https://www.apple.com/legal/privacy/>
+- Google privacy: <https://policies.google.com/privacy>
 
-If we add any of these to a future version, this policy will be updated at least 7 days before the update ships.
+## 4. Children
 
-## 4. Local Data
+BULWARK is rated 9+ on the App Store for mild cartoon violence. It is **not directed at children under 13**, and we do not knowingly collect personal data from anyone, children included. If a child made a purchase without permission, ask the App Store or Google Play for a refund under their family policies, and write to us; we will help where we can.
 
-BULWARK stores game progress (high score, levels cleared, upgrades owned, purchased gold balance, settings) **locally on your device** in the app's sandboxed user-data folder. This data never leaves your device, except for the purchase receipts described in §2.2 and ad-targeting data described in §2.3.
+## 5. Deleting your data
 
-## 5. Children's Privacy
+- **Your progress:** delete the app; the save goes with it.
+- **Purchase records:** held by Apple, Google and RevenueCat under their policies. E-mail us and we will file a deletion request with RevenueCat on your behalf.
+- **Leaderboard and achievement entries:** managed through your Apple ID or Google Account settings.
+- **Ad data:** reset or limit your advertising identifier in iOS Settings → Privacy & Security → Tracking, or Android Settings → Google → Ads.
 
-BULWARK is suitable for ages 7+. We do not knowingly collect personal data from children under 13. If you are a parent and discover that your child has provided us with information you did not authorize, contact us at the email below and we will help.
+## 6. Protection and retention
 
-## 6. Data Deletion
+Data that leaves your device is sent encrypted (HTTPS). The third-party services above (RevenueCat, Google, Apple) protect your data at least as well as this policy describes, under their own policies.
 
-Since BULWARK does not store data on our own servers, the data we hold about you consists of:
+- **Your progress** stays on your device until you delete the game.
+- **Purchase records** are kept by Apple or Google and by RevenueCat for as long as your purchases need them (so they can be restored) and as long as the law requires.
+- **Advertising data** is kept by Google under its own policy.
+- **Leaderboard and achievement records** are kept by Apple or Google under your Game Center or Google account.
 
-- Locally stored game progress on your device — deleting the app removes this data.
-- Purchase records held by the App Store / Google Play / RevenueCat — these are governed by their respective providers' policies. You can revoke RevenueCat's record by contacting us (§7) and we will request deletion via RevenueCat's data subject request process.
-- Leaderboard / achievement records held by Apple Game Center / Google Play Games Services — managed via your Apple ID / Google Account settings.
-- AdMob ad-targeting data — managed via Google's Ads Settings on Android and Apple's Tracking settings on iOS.
+## 7. Contact
 
-## 7. Contact Us
-
-If you have any questions, please contact us at: <info@esimostudios.com>
+Questions, requests or concerns: <info@esimostudios.com>. We answer within a few business days.
